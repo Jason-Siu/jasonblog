@@ -1,4 +1,100 @@
 baseURL: https://jason-siu.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: Hi, I'm Jason Siu
 theme: hello-friend-ng
+
+PygmentsCodeFences: true
+PygmentsStyle: monokai
+paginate: 10
+rssLimit: 10
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+canonifyURLs: true
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
+enableMissingTranslationPlaceholders: false
+disableRSS: false
+disableSitemap: false
+disable404: false
+disableHugoGeneratorInject: false
+permalinks:
+  posts: /posts/:year/:month/:title/
+blackfriday:
+  hrefTargetBlank: true
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+  
+params:
+  showButton: true
+  buttonText: "View My Official CTF Writeups Here"
+  buttonURL: "/posts"
+  homeSubtitle: |
+    I’m a graduate in Computer Science at the University of Texas at Dallas and former member and speaker at CSG UTD, a student group dedicated to exploring and promoting cybersecurity principles and ensure the security of technology all around the world. <br><br>
+    
+    I want to work full-time solving the world’s most important and neglected problems and ensure humanity has a long and flourishing future. In particular, I’m pursuing the field of offensive security.
+  
+  Portrait:
+    Path: "jasonpic.png"
+    Alt: "I'm carrying a dog!"
+    MaxWidth: "120px"  # Adjust the maximum width as needed
+  author:
+    name: Jane Doe
+    dateform: Jan 2, 2006
+    dateformShort: Jan 2
+    dateformNum: 2006-01-02
+    dateformNumTime: 2006-01-02 15:04
+    description: Nice theme for homepages and blogs
+    keywords: ""
+    images:
+      - ""
+    homeSubtitle:
+    disableReadOtherPosts: false
+    enableThemeToggle: true
+    enableSharingButtons: true
+    enableGlobalLanguageMenu: true
+    customCSS: []
+    customJS: []
+    justifyContent: false
+    
+  footer:
+    trademark: 
+    rss: false
+    copyright: false
+    author: false
+    topText: []
+    bottomText:
+      - Powered by <a href="http://gohugo.io">Hugo</a>
+      - Made with &#10084; by <a href="https://github.com/Jason-Siu">Jason Siu</a>
+  favicon:
+    color:
+      mask: "#1b1c1d"
+      msapplication: "#1b1c1d"
+      theme: "#1b1c1d"
+  logo:
+    logoMark: ">"
+    logoText: $ cd /home/jason
+    logoHomeLink: /
+  social:
+    - name: github
+      url: https://github.com/Jason-Siu
+    - name: linkedin
+      url: https://www.linkedin.com/in/jason-siu-18b5122ab/
+    - name: tryhackme
+      url: https://tryhackme.com/p/jsiu7900
+languages:
+  en:
+    weight: 1
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: posts/
