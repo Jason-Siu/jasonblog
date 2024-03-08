@@ -11,6 +11,8 @@ Hello this is my first post!
 
 Will be posting official writeups and guides here!
 
+Stay tuned...
+
 Thanks
 
 - Jason
