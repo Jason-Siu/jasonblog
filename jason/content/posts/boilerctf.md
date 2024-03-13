@@ -19,7 +19,7 @@ The [link to the CTF is here.](https://tryhackme.com/room/boilerctf2)
 
 You can read [my PDF writeup here.](/boilerctf.pdf)
 
-I will make a video walkthrough on this CTF soon.
+{{< youtube Sxktuk48BLM >}}
 
 Enjoy!
 
