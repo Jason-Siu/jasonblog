@@ -14,7 +14,7 @@ Hello everyone,
 
 Today's writeup will be about [Archangel from TryHackMe.](https://tryhackme.com/room/archangel)
 
-This is a tough CTF challenge involving LFI, Apache Log Poisoning, and editting system commands.
+This is a tough CTF challenge involving LFI, Apache Log Poisoning, and editing system commands.
 
 However, because it is so unique, it's a good learning experience.
 
